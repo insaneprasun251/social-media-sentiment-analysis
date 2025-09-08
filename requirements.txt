@@ -2,4 +2,14 @@ composio
 textblob
 pandas
 streamlit
-plotly
+numpy
+vaderSentiment
+emoji
+contractions
+nltk
+scikit-learn
+tqdm
+spacy
+transformers
+torch
+matplotlib
