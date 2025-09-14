@@ -91,10 +91,3 @@ Open the app in your browser at **http://localhost:8501/**.
 ## 🤝 Contributing
 
 Contributions are welcome! Please fork this repo, create a new branch, and submit a pull request.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.  
-See the [LICENSE](LICENSE) file for more information.
