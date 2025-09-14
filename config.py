@@ -1,3 +1,4 @@
-twitter_auth_config_id = "ac_UIPkMtKzqNhE"
-user_id = "InsanePrasun"
+user_id_reddit = "u/Prestigious-Bike3378"
+user_id_twitter = "InsanePrasun"
 COMPOSIO_API_KEY = "ak_FSYX-uZFXXbciEyntGgX"
+

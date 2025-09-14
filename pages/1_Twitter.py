@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 composio = Composio(api_key=config.COMPOSIO_API_KEY)
 
 st.title("Twitter")
-st.write("It fetches tweets via twitter API, process the text for sentiment analysis, and visualize the result on a dashboard")
+st.write("It fetches tweets via Composio API, process the text for sentiment analysis, and visualize the result on a dashboard")
 
 query = st.text_input("Enter the keyword to search")
 posts = st.text_input("Enter the no. of posts you want to fetch (must be > or = 10)", 10)
@@ -55,5 +55,5 @@ def show_data(data):
 
 if st.button("Fetch Tweets"):
     st.success(f"Showing results for: {query}")
-    data = get_data(query, posts, config.user_id)
+    data = get_data(query, posts, config.user_id_twitter)
     show_data(data)
